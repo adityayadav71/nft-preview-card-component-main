@@ -19,7 +19,7 @@ body {
   font-size: 18px;
 }
 .container {
-  margin: 0 auto;
+  margin: 100px auto;
   height: fit-content;
   width: 500px;
 }
