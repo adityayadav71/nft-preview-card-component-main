@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+body {
+  background-color: hsl(217, 54%, 11%);
+  font-family: "Outfit", sans-serif;
+  font-weight: bold;
+  color: #fff;
+  font-size: 18px;
+}
+.container {
+  margin: 0 auto;
+  height: fit-content;
+  width: 500px;
+}
+
+.card-component {
+  position: relative;
+  margin: auto;
+  width: 200px;
+  height: auto;
+  background-color: hsl(216, 50%, 16%);
+  box-shadow: 0px 10px 10px 10px #0a1321d3;
+  border-radius: 10px;
+  align-items: center;
+  padding: 15px;
+}
+
+.img {
+  border-radius: 5px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 12px;
+  font-weight: 300;
+  color: hsl(215, 51%, 70%);
+  margin-bottom: 15px;
+}
+
+.flex {
+  align-items: center;
+  padding-bottom: 15px;
+  border-bottom: 0.5px solid hsla(215, 52%, 70%, 0.445);
+}
+.amount {
+  display: inline-block;
+  align-items: center;
+  color: hsl(178, 100%, 50%);
+  font-weight: 600;
+  font-size: 12px;
+  margin-right: 60px;
+}
+
+.time {
+  display: inline-block;
+  color: hsl(215, 51%, 70%);
+  font-size: 12px;
+  font-weight: 300;
+  margin: 0 auto;
+}
+
+.flex > * {
+  vertical-align: middle;
+}
+
+footer {
+  align-items: center;
+  margin-top: 10px;
+}
+
+footer > * {
+  vertical-align: middle;
+}
+
+.author-img {
+  display: inline-block;
+  height: 20px;
+  width: auto;
+  margin-right: 10px;
+  border-radius: 50%;
+  border: 1px solid hsl(0, 0%, 100%);
+}
+
+.author {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+span {
+  color: hsl(215, 51%, 70%);
+}
+
+.ethereum,
+.clock {
+  display: inline-block;
+  height: 12px;
+  width: auto;
+}
