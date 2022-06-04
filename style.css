@@ -2,6 +2,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 .attribution {
   font-size: 11px;
@@ -19,7 +20,10 @@ body {
   font-size: 18px;
 }
 .container {
-  margin: 100px auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
   height: fit-content;
   width: 500px;
 }
@@ -27,7 +31,7 @@ body {
 .card-component {
   position: relative;
   margin: auto;
-  width: 200px;
+  width: 250px;
   height: auto;
   background-color: hsl(216, 50%, 16%);
   box-shadow: 0px 10px 10px 10px #0a1321d3;
@@ -49,63 +53,64 @@ body {
   margin-bottom: 15px;
 }
 
+/* VALUES */
 .flex {
+  display: flex;
   align-items: center;
+  justify-content: space-between;
   padding-bottom: 15px;
   border-bottom: 0.5px solid hsla(215, 52%, 70%, 0.445);
 }
-.amount {
-  display: inline-block;
+.eth {
   align-items: center;
+  display: flex;
+  gap: 5px;
+}
+
+.dur {
+  align-items: center;
+  display: flex;
+  gap: 5px;
+}
+.amount {
   color: hsl(178, 100%, 50%);
   font-weight: 600;
   font-size: 12px;
-  margin-right: 60px;
 }
 
 .time {
-  display: inline-block;
   color: hsl(215, 51%, 70%);
   font-size: 12px;
   font-weight: 300;
-  margin: 0 auto;
 }
 
-.flex > * {
-  vertical-align: middle;
+.ethereum,
+.clock {
+  height: 12px;
+  width: auto;
 }
 
+/* FOOTER */
 footer {
+  display: flex;
   align-items: center;
+  gap: 10px;
   margin-top: 10px;
-}
-
-footer > * {
-  vertical-align: middle;
+  margin-bottom: 10px;
 }
 
 .author-img {
-  display: inline-block;
   height: 20px;
   width: auto;
-  margin-right: 10px;
   border-radius: 50%;
   border: 1px solid hsl(0, 0%, 100%);
 }
 
 .author {
-  display: inline-block;
   font-size: 12px;
   font-weight: 400;
 }
 
 span {
   color: hsl(215, 51%, 70%);
-}
-
-.ethereum,
-.clock {
-  display: inline-block;
-  height: 12px;
-  width: auto;
 }
