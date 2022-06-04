@@ -12,9 +12,6 @@
   color: hsl(228, 45%, 44%);
 }
 body {
-  zoom: 2;
-  -moz-transform: scale(2);
-  -moz-transform-origin: 0 0;
   background-color: hsl(217, 54%, 11%);
   font-family: "Outfit", sans-serif;
   font-weight: bold;
